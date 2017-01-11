@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_git"
+            android:icon="@drawable/ic_menu_git"
+            android:title="GitHub" />
+        <item
+            android:id="@+id/nav_csdn"
+            android:icon="@drawable/ic_menu_csdn"
+            android:title="CSDN" />
+        <item
+            android:id="@+id/nav_great"
+            android:icon="@drawable/ic_menu_great"
+            android:title="Great" />
+        <item
+            android:id="@+id/nav_androiddev"
+            android:icon="@drawable/ic_menu_dev"
+            android:title="Android Developer" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
